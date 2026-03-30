@@ -1,16 +1,16 @@
-% --- DATA ---
+% DATA
 location_multiplier(suburbs, 50000).
 location_multiplier(city_center, 150000).
 location_multiplier(rural, 20000).
 
-% --- LOGIC ---
+% LOGIC
 calculate_price(Size, Rooms, Location, FinalPrice) :-
     location_multiplier(Location, LocValue),
     SizePrice is Size * 1000,
     RoomPrice is Rooms * 25000,
     FinalPrice is SizePrice + RoomPrice + LocValue.
 
-% --- INTERFACE ---
+% INTERFACE
 start :-
     nl, write('--- House Price Predictor ---'), nl,
     
