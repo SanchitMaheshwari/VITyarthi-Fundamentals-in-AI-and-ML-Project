@@ -42,7 +42,7 @@ To run this program, you need a Prolog interpreter. We recommend:
     * Enter the size followed by a period (e.g., `1500.`).
     * Enter the number of rooms followed by a period (e.g., `3.`).
     * Enter the location (e.g., `city_center.`, `suburbs.`, or `rural.`).
-    * 
+   
 > **Syntax Note:** In Prolog, every input must end with a period (`.`). For example, type `yes.` instead of just `yes`.
 
 ##  File Structure
