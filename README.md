@@ -47,7 +47,3 @@ To run this program, you need a Prolog interpreter. We recommend:
 
 ##  File Structure
 * `house_predictor.pl`: The main logic file containing the data facts and calculation rules.
-
----
-
-Would you like me to add a **"How it Works"** section that breaks down the specific Prolog syntax (like predicates and atoms) for people new to logic programming?
